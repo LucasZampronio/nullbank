@@ -7,7 +7,7 @@ body{
     border: 0px;
 }
 
-
+/*Inicio do CCS do HEADER*/
 header{
     display: flex;
     justify-content: space-around;
@@ -18,7 +18,6 @@ header{
     position: fixed;
     background-color: #ffffff;
     border: 1px solid #94a3b8 !important
-
 
 }
 
@@ -50,38 +49,197 @@ header a{
     border-radius: 8px 8px;
 }
 
+/*Inicio do CCS da primeira sessão da 1 página */
+
  main{
     font-family: 'Poppins',serif;
 }
 
+/*Estilo do bloco geral da primeira pagina*/
 #firstcontainer{
     display: grid;
     grid-template-columns: 52.50% 47.50%;
+    height: 702px;
 }
 
 
-#backgroundcard{
-    background-color: #6729FF;
+/*Estilo do primeiro bloco da esquerda*/
+#leftcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 702px;
+}
+
+/*Estilo do CENTRO DO primeiro bloco da esquerda (POSICIONAMENTO E TAMANHO DOS ELEMENTOS)*/
+#centerleftcontainer{
+    height: 702px;
+    width: 65%;
+    align-items: center;
 
 }
-.accountimg{
-    background-color:#EEE5FF;
-    border-radius: 8px 8px;
+
+.accounttext h1{
+    color: #475569;
+    font-size: 45px;
+
 }
 
-.floatingmsg{
+.openaccount {
+    margin-bottom: 28px;
+}
+.openaccount p{
+    display: inline-block;
+    font-size: 12px;
+
+}
+/*Botão de abra sua conta na esquerda do bloco*/
+.openaccountbutton{
     background-color: #EEE5FF;
+    color: #6729FF;
+    padding: 12px 50px 12px 50px;
     border-radius: 8px 8px;
+    
+}
+#sideopen{
+    padding-left: 40px; 
+    color: #64748B;
+}
+
+.accounttext{
+    justify-content: center;
+
+}
+.accounttext h1{
+    color: #475569;
+    margin-bottom: 15px;
+    font-size: 3.2em;
+}
+.accounttext p{
+    color: #64748B;
+    font-size: 16px;
+}
+
+.avatars{
+    border-top: 1px solid  #94a3b8;
+    padding-top: 50px;
 
 }
 
-.accountimg p{
-    background-color: #ffffff;
-    border-radius: 5px 5px;
-    padding: 2px 2px;
+.avatars p{
+    color: #94A3B8;
+    font-size: 14px;
+    margin-top: 0px;
 
 }
 
+/*Inicio do bloco da primeira pagina parte da direita ( app)*/
+
+
+/*Estilo do primeiro bloco da direita*/
+
+
+
+#rightcontainer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #6729FF;
+    height: 702px;
+
+}
+
+/*APP com balões*/
+#positionballon{
+    display: inline-flex;
+    gap: 10px;
+
+}
+
+#positionballon div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1px;
+}
+#fixpadding{
+    padding: 8px;
+}
+
+#imgbaloon{
+    height: 82%;
+}
+
+.imgballon{
+    align-items: center;
+    padding: 6px;
+    background-color:#EEE5FF ;
+    border-radius: 8px 8px;
+}
+
+.designbaloons1{
+    padding-left: 3px;
+    color: #475569;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    width: 195px;
+    height: 45px;
+    font-size: 14px;
+    box-shadow: 0px 27px 16px 0px #67748a33;
+}
+
+.designbaloons2{
+    padding-left: 3px;
+    color: #475569;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    width: 270px;
+    height: 45px;
+    font-size: 14px;
+    box-shadow: 0px 48px 19px 0px #67748a33;
+}
+
+.designbaloons3{
+    padding-left: 3px;
+    color: #475569;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    width: 225px;
+    height: 45px;
+    font-size: 14px;
+    box-shadow: 0px 27px 16px 0px #67748a33;
+}
+
+.designbaloons div{
+    padding-left: 2px;
+
+}
+ .baloons{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+/*Posicionamento dos baloes no app*/
+#baloon01{
+    position: absolute;
+    left: 445px;
+    top: 190px;
+}
+
+#baloon02{
+    position: absolute;
+    left: 70px;
+    top: 410px;
+}
+
+#baloon03{
+    position: absolute;
+    left: 470px;
+    top: 540px;
+}
+
+/*Inicio do CCS do FOOTER*/
 footer {
     font-family: 'Poppins', serif;
     display: flex;
