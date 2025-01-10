@@ -16,7 +16,7 @@ header{
     font-family: 'Poppins',serif;
     height: 72px;
     background-color: #ffffff;
-    border: 1px solid #94a3b8 !important
+    border: 1px solid rgba(226, 232, 240, 1)  !important
 
 }
 
@@ -57,7 +57,7 @@ header a{
 /*Estilo do bloco geral da primeira pagina*/
 #firstcontainer{
     display: grid;
-    grid-template-columns: 52.50% 47.50%;
+    grid-template-columns: 50% 50%;
     height: 702px;
 }
 
@@ -68,6 +68,7 @@ header a{
     align-items: center;
     justify-content: center;
     height: 702px;
+    border-bottom: 1px solid  rgba(226, 232, 240, 1) ;
 }
 
 /*Estilo do CENTRO DO primeiro bloco da esquerda (POSICIONAMENTO E TAMANHO DOS ELEMENTOS)*/
@@ -120,7 +121,7 @@ header a{
 }
 
 .avatars{
-    border-top: 1px solid  #94a3b8;
+    border-top: 1px solid rgba(226, 232, 240, 1) ;
     padding-top: 50px;
 
 }
@@ -145,7 +146,6 @@ header a{
     justify-content: center;
     background-color: #6729FF;
     height: 702px;
-
 }
 
 /*APP com balões*/
