@@ -7,6 +7,12 @@ body{
     margin: 0px;
     border: 0px;
 }
+p{
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+}
 
 /*Inicio do CCS do HEADER*/
 header{
@@ -208,7 +214,15 @@ footer #copyright h1 {
     color: rgba(100, 116, 139, 1);
     font-size: 16px;
 }
+.containerimgopenaccount{
+    margin-top: 20px;
+    font-family: 'Poppins',serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
 /*Inicio do CCS da Pagina de contato*/
+/*PARTE DO TELEFONE*/
 .containercontact{
     width: 100%;
     height: 380px;
@@ -245,9 +259,229 @@ footer #copyright h1 {
 }
 
 .containerform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 90%;
     height: 90%;
-    border: 1px solid black;
+
 }
 
+.containerphone{
+    border-bottom: 1px solid rgba(226, 232, 240, 1);
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+.containerphone01{
+    display: flex;
+    width: 80%;
+    height: 60%;
+}
+.containerphone02{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.containerphone02 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+#phonenumbers{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    font-family: 'Poppins',serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(100, 116, 139, 1);
+}
+#numbers{
+    color: rgba(71, 85, 105, 1);
+}
+.containerphone03{
+    display: flex;
+    flex-direction: column;
+}
+.containerphone03{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
 
+#tittlecontact{
+    font-family: 'Outfit',serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    color: rgba(71, 85, 105, 1); 
+    margin-bottom: 10px;   
+}
+#textcontact{
+    font-family: 'Poppins',serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(100, 116, 139, 1);
+    
+}
+/*PARTE DAS REDES SOCIAIS*/
+
+.containersocialmedia{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgba(226, 232, 240, 1);
+}
+
+.containersocialmedia01{
+    display: flex;
+    width: 80%;
+    height: 60%;
+}
+.containersocialmedia02{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.containersocialmedia02 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.containersocialmedia03{
+    display: flex;
+    flex-direction: column;
+}
+.containersocialmedia03{
+    display: flex;
+
+    width: 50%;
+    height: 100%;
+}
+.containersocialmedia04 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.containersocialmedia04{
+    display: flex;
+    justify-content: end;
+    width: 520px
+}
+
+/* PARTE DO FORMULARIO*/
+.containertalkwithus{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+.containertalkwithus01{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: space-between;
+
+}
+.containertalkwithus02{
+    display: inline-flex;
+    width: 35%;
+    height: 35%;
+}
+.containertalkwithus02 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.containertalkwithus03{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.containertalkwithus04{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px        
+}
+
+.containertalkwithus05{
+    width: 100%;
+    height: 68px        
+}
+
+.containertalkwithus06{
+    width: 100%;
+    height: 278px        
+}
+
+.containertalkwithus07{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 40px        
+}
+.containerwithusname{      
+    width: 45%;
+}
+
+.containerwithuslastname{     
+    width: 47%;
+}
+#styleformtittle{
+    font-family: 'Outfit',serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    color: rgba(100, 116, 139, 1);
+}
+
+#styleforminput{
+    margin-top: 10px;
+    color: rgba(148, 163, 184, 1);
+    border: 1px solid rgba(226, 232, 240, 1);
+    border-radius: 8px;
+    padding: 8px 8px 8px 12px;
+    font-family: 'Poppins',serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 96.5%;
+}
+.containertalkwithus06 input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80%;
+}
+
+.containertalkwithus07 button{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    background-color: #6729FF;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 16px 16px 16px 22px;
+    border-radius: 8px;
+}
+
+.containertalkwithus07 img{
+    padding-left: 10px;
+}
+.fixinput{
+    width: 93% !important ;
+}

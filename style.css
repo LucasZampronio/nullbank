@@ -739,12 +739,11 @@ footer #copyright h1 {
     color: rgba(100, 116, 139, 1);
     font-size: 16px;
 }
-/*Inicio do CCS da Pagina de contato*/
-.containercontact{
-    width: 100%;
-    height: 340px;
-    top: 72px;
-    background-color: #6729FF;
+.containerimgopenaccount{
+    margin-top: 20px;
+    font-family: 'Poppins',serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
 }
-
 
