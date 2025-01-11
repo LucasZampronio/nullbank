@@ -240,6 +240,175 @@ header a{
     left: 470px;
     top: 540px;
 }
+/*Inicio do CCS do containder dos beneficios NULLBANK*/
+.containerbenefits{
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center
+}
+.containerbenefitscenter{
+    justify-content: space-between;
+    display: flex;
+    height: 500px;
+    width: 1200px;
+}
+.contaienrbenefitscenterinformations{
+    align-items: center;
+    justify-content: center;
+    width: 418px;   
+    height: 256px;
+
+}
+.contaienrbenefitscenterinformations h1{
+    font-weight: 700;
+    font-family: 'Poppins',serif;
+    color: #6729FF;
+    font-size: 16px;
+    margin: 0px;
+}
+.contaienrbenefitscenterinformations h2{
+    font-size: 40px;
+    font-family: 'outfit',serif;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 10px;
+}
+.contaienrbenefitscenterinformations p{
+    color: rgba(100, 116, 139, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins',serifs;
+}
+.containerbenefitscenterinformationssee p{
+    color: #6729FF;
+    font-family: 'Poppins',serif;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0px;
+}
+.containerbenefitscenterinformationssee img{
+    display: inline-block;
+}
+
+.containerbenefitscentersquares{
+    width: 728px;
+    height: 500px;
+
+}
+.containerbenefitscentersquares01{
+    display: flex;
+    flex-direction: row;
+    width: 728px;
+    height: 29%;
+    align-items: center;
+    justify-content: center;
+}
+.containerbenefitscentersquares01 h1{
+    margin: 0px;
+}
+.containerbenefitscentersquares01 p{
+    margin: 0px;
+}
+.containerbenefitscentersquares02 h1{
+    margin: 0px;
+}
+.containerbenefitscentersquares02 p{
+    margin: 0px;
+}
+.containerbenefitscentersquares03 h1{
+    margin: 0px;
+}
+.containerbenefitscentersquares03 p{
+    margin: 0px;
+}
+.containerbenefitscentersquare02{
+    display: flex;
+    flex-direction: row;
+    width: 728px;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.containerbenefitscentersquare03{
+    width: 728px;
+    height: 32%;
+    align-items: center;
+    justify-content: center;
+}
+.containerbenefitscentersquare03 p{
+    margin: 0px;
+    padding-left: 22px;
+}
+
+.containerbenefitsimg{
+    display: inline-flex;
+}
+.wallet{
+    display: flex;
+    align-items: center;
+    
+}
+.fixdesconto{
+    height: 90px;
+    margin-left: 12px;
+}
+#fixcartao{
+    margin-left: 20px;
+}
+
+#containerbenefitsdesign{
+    border: 2px solid rgba(226, 232, 240, 1);
+    border-radius: 8px 8px;
+    padding: 30px 20px 30px 20px;
+
+}
+#containerbenefitsdesign h1{
+    font-family: 'Outfit',serif;
+    color:#6729FF;
+} 
+ 
+#containerbenefitsdesign p{
+    font-family: 'Poppins',serif;
+    color:rgba(100, 116, 139, 1);
+    font-size: 14px;
+ }
+ #containerbenefitsdesign02 {
+    background-color: rgba(243, 242, 255, 1);
+    border-radius: 8px 8px;
+ }  
+ #containerbenefitsdesign02 h1{
+    font-family: 'Outfit',serif;
+    color: #6729FF;
+ } 
+ #containerbenefitsdesign02 p{
+    font-size: 14px;
+    font-family: 'Poppins',serif;
+    color:rgba(100, 116, 139, 1);
+ } 
+#backgroundbenefitsimage{
+    background-color: rgba(238, 229, 255, 1);
+    padding: 10px 14px 10px 14px;
+    margin-right: 12px;
+    border-radius: 8px 8px;
+}
+#backgroundbenefitsimage02{     
+    margin-right: 13px;
+    border-radius: 8px 8px;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+#fixwallet{
+    padding-left: 20px;
+}
+#nullbankcolor{
+    color: #6729FF;
+}
+#beneficioscolor{
+    color: rgba(71, 85, 105, 1);
+}
 /*Inicio do CCS do containder do APLICATIVO*/
 .containerapp{
     height: 698px;
@@ -277,7 +446,7 @@ header a{
 #backgroundapp{
     width: 500px;
     height: 290px;
-    top: 1085px;
+    top: 1785px;
     left: 183px;
     position: absolute;
     background-color: #EEE5FF;
