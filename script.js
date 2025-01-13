@@ -4,12 +4,16 @@ function salvarMensagem(){
     var formularioEmail = document.getElementById('formularioEmail')
     var formularioMensagem = document.getElementById('formularioMensagem')
 
-    var dados = JSON.parse(localStorage.getItem('dadosMensagem'))
 
     if(
         formularioNome.value.trim() === '' || formularioSobrenome.value.trim() === '' || 
         formularioEmail.value.trim() === '' || formularioMensagem.value.trim() === ''
-    )
+    ){
+        alert('Todos os campos devem ser preenchidos')
+        return;
+    }
+
+    var dados = JSON.parse(localStorage.getItem('dadosMensagem'))
 
     if(dados === null){;
         dados = [];
