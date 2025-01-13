@@ -31,10 +31,20 @@ function salvarMensagem(){
     alert('Mensangem enviada com sucesso!')
 }
 function salvarNewsletter() {
-    var Newsletter = document.getElementById('Newsletter')
-    //if (Newsletter.value.trim() === ''){
-    //    alert('Por favor, preencha o e-mail.')
-    //    return;
-    //}
-    alert('Obrigado por assinar nossa newsletter!')
+    var Newsletter = document.getElementById('Newsletter');
+    if (Newsletter.value.trim() === '') {
+        alert('Por favor, preencha o e-mail.');
+        return;
+    }
+    var email = JSON.parse(localStorage.getItem('emailNewsletter'));
+    if (email === null) {
+        email = [];
+    }
+    var listaEmail = {
+        emailNews: Newsletter.value
+    };
+    email.push(listaEmail);
+    localStorage.setItem('emailNewsletter', JSON.stringify(email));
+    Newsletter.value = '';
+    alert('Obrigado por assinar nossa newsletter!');
 }
