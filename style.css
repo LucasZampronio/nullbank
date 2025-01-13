@@ -295,6 +295,9 @@ header a{
     font-weight: 400;
     font-family: 'Poppins',serifs;
 }
+.containerbenefitscenterinformationssee{
+    display: flex;
+}
 .containerbenefitscenterinformationssee p{
     color: #6729FF;
     font-family: 'Poppins',serif;
@@ -347,10 +350,12 @@ header a{
     gap: 14px;
 }
 .containerbenefitscentersquare03{
+    display: flex;
+    flex-direction: column;
+
     width: 728px;
     height: 32%;
-    align-items: center;
-    justify-content: center;
+
 }
 .containerbenefitscentersquare03 p{
     margin: 0px;
@@ -762,3 +767,24 @@ footer #copyright h1 {
     line-height: 16px;
 }
 
+.purplesquare{
+    display: flex;
+    position: relative;
+    right: -400px;
+    width: 150px;
+    top: -101px;
+    height: 100px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.whitesquare{
+    display: flex;
+    position: relative;
+    right: -470px;
+    width: 150px;
+    top: -220px;
+    height: 120px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #6729FF; 
+}
